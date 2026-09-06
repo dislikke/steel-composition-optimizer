@@ -79,8 +79,8 @@ SteelCalculator/
 ### 1. Клонировать репозиторий
 
 ```powershell
-git clone https://github.com/dislikke/SteelCalculator2.git
-cd SteelCalculator2
+git clone https://github.com/dislikke/steel-composition-optimizer.git
+cd steel-composition-optimizer
 ```
 
 ### 2. Настроить переменные окружения
