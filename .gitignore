@@ -1,12 +1,20 @@
+# Environment variables / secrets
+.env
+.flaskenv
+
 # Virtual environments
 .venv/
-.env/
 venv/
 
 # Python
 __pycache__/
 *.py[cod]
 *.log
+.pytest_cache/
+.ruff_cache/
+
+# Database backups
+*.sql
 
 # IDE
 .idea/
@@ -18,3 +26,8 @@ Thumbs.db
 
 # Migrations cache
 migrations/__pycache__/
+
+# Local databases
+instance/*.db
+instance/*.sqlite
+instance/*.sqlite3
